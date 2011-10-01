@@ -23,7 +23,7 @@
 				self::$library = $library;
 			}
 			
-			$class = 'MultiByte_Engine_' . self::$library;
+			$class = '\MultiByte\Engine_' . self::$library;
 			
 			return new $class();
 			
