@@ -1,6 +1,8 @@
 <?php
 
-	class UTF8 extends Kohana_UTF8 {
+	namespace MultiByte;
+
+	class UTF8 {
 		
 		protected static $instance;
 		

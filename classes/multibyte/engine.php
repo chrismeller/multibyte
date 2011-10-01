@@ -1,6 +1,8 @@
 <?php
 
-	abstract class MultiByte_Engine {
+	namespace MultiByte;
+	
+	abstract class Engine {
 		
 		protected function encoding ( $use_encoding = null ) {
 			

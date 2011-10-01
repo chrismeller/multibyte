@@ -1,6 +1,8 @@
 <?php
 
-	class MultiByte_Engine_MBstring extends MultiByte_Engine {
+	namespace MultiByte;
+
+	class Engine_MBstring extends Engine {
 		
 		public function detect_encoding ( $string ) {
 			

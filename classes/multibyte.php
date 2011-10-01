@@ -1,5 +1,7 @@
 <?php
 
+	namespace MultiByte;
+	
 	class MultiByte {
 				
 		public static $library = null;
