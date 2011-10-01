@@ -6,7 +6,7 @@
 		
 		protected function encoding ( $use_encoding = null ) {
 			
-			$encoding = Kohana::$charset;
+			$encoding = \Fuel\Core\Fuel::$encoding;
 			
 			if ( $use_encoding != null ) {
 				$encoding = $use_encoding;

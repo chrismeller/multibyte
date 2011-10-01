@@ -10,8 +10,10 @@
 			
 			if ( $library == null ) {
 				
-				$config = Kohana::config( 'multibyte.library' );
-			
+				\Fuel\Core\Config::load('multibyte', 'multibyte');
+            	
+            	$config = \Fuel\Core\Config::get( 'multibyte.library' );
+				
 				if ( $config == null ) {
 					$config = 'mbstring';
 				}
