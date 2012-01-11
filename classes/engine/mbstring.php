@@ -352,8 +352,8 @@
 			
 			$encoding = $this->encoding( $use_encoding );
 						
-			$string = $this->ltrim( $string, $charlist, $use_encoding );
-			$string = $this->rtrim( $string, $charlist, $use_encoding );
+			$string = $this->ltrim( $string, $charlist, $encoding );
+			$string = $this->rtrim( $string, $charlist, $encoding );
 			
 			return $string;
 			
